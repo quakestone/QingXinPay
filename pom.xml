@@ -182,6 +182,13 @@
                 <version>${qingxinpay.version}</version>
             </dependency>
 
+            <!-- 管理模块-->
+            <dependency>
+                <groupId>com.qingxinpay</groupId>
+                <artifactId>qingxinpay-manage</artifactId>
+                <version>${qingxinpay.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -192,6 +199,7 @@
         <module>qingxinpay-quartz</module>
         <module>qingxinpay-generator</module>
         <module>qingxinpay-common</module>
+        <module>qingxinpay-manage</module>
     </modules>
     <packaging>pom</packaging>
 

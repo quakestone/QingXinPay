@@ -61,6 +61,12 @@
             <artifactId>qingxinpay-generator</artifactId>
         </dependency>
 
+        <!-- 管理模块-->
+        <dependency>
+            <groupId>com.qingxinpay</groupId>
+            <artifactId>qingxinpay-manage</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
